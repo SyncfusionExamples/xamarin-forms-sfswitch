@@ -12,7 +12,7 @@ This section explains you the steps to add the SfSwitch control with basic funct
 ## Assembly deployment
 After installing Essential Studio for Xamarin, you can find all the required assemblies in the installation folders, {Syncfusion Essential Studio Installed location} \Essential Studio\{Version #}\Xamarin\lib.
 
-#3 Adding SfSwitch reference
+## Adding SfSwitch reference
 You can add SfSwitch reference using one of the below methods.
 
 ## Method 1: Adding SfSwitch reference from nuget.org
