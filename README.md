@@ -29,7 +29,7 @@ If you prefer to manually reference the assemblies instead referencing from NuGe
 
 Location: {Installed location}/{version}/Xamarin/lib
 
-#3 Initializing SfSwitch
+## Initializing SfSwitch
 Import the Button namespace as shown below in your respective Page,
 
 **[XAML]**
@@ -42,7 +42,7 @@ Then initialize the switch control as shown below using the code example.
 ```
 <syncfusion:SfSwitch />
 ```
-#3 Performing an action based on state
+## Performing an action based on state
 You can switch between the states. When the state is changed the StateChanging and StateChanged event will be triggered where you can perform an action based on the current state.The StateChanging event allows you to cancel moving to a new state.
 
 The following code example displays a message box when switched to off state when work is completed.
