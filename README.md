@@ -6,13 +6,13 @@ For know more details about Switch: https://www.syncfusion.com/xamarin-ui-contro
 
 Switch user guide documentation: https://help.syncfusion.com/xamarin/switch/gettingstarted
 
-# Getting Started with Xamarin Switch (SfSwitch)
+## Getting Started with Xamarin Switch (SfSwitch)
 This section explains you the steps to add the SfSwitch control with basic functionalities in Xamarin.Forms.
 
-# Assembly deployment
+## Assembly deployment
 After installing Essential Studio for Xamarin, you can find all the required assemblies in the installation folders, {Syncfusion Essential Studio Installed location} \Essential Studio\{Version #}\Xamarin\lib.
 
-# Adding SfSwitch reference
+#3 Adding SfSwitch reference
 You can add SfSwitch reference using one of the below methods.
 
 ## Method 1: Adding SfSwitch reference from nuget.org
@@ -29,7 +29,7 @@ If you prefer to manually reference the assemblies instead referencing from NuGe
 
 Location: {Installed location}/{version}/Xamarin/lib
 
-# Initializing SfSwitch
+#3 Initializing SfSwitch
 Import the Button namespace as shown below in your respective Page,
 
 **[XAML]**
@@ -42,7 +42,7 @@ Then initialize the switch control as shown below using the code example.
 ```
 <syncfusion:SfSwitch />
 ```
-# Performing an action based on state
+#3 Performing an action based on state
 You can switch between the states. When the state is changed the StateChanging and StateChanged event will be triggered where you can perform an action based on the current state.The StateChanging event allows you to cancel moving to a new state.
 
 The following code example displays a message box when switched to off state when work is completed.
